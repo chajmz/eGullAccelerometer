@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>gyroGull.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>0</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>F0CE7A571C51810A00DB0D72</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>F0CE7A6B1C51810A00DB0D72</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>F0CE7A761C51810A00DB0D72</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>

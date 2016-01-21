@@ -1,0 +1,507 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F0CE7A5C1C51810A00DB0D72 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0CE7A5B1C51810A00DB0D72 /* AppDelegate.swift */; };
+		F0CE7A5E1C51810A00DB0D72 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0CE7A5D1C51810A00DB0D72 /* ViewController.swift */; };
+		F0CE7A611C51810A00DB0D72 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F0CE7A5F1C51810A00DB0D72 /* Main.storyboard */; };
+		F0CE7A631C51810A00DB0D72 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F0CE7A621C51810A00DB0D72 /* Assets.xcassets */; };
+		F0CE7A661C51810A00DB0D72 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F0CE7A641C51810A00DB0D72 /* LaunchScreen.storyboard */; };
+		F0CE7A711C51810A00DB0D72 /* gyroGullTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0CE7A701C51810A00DB0D72 /* gyroGullTests.swift */; };
+		F0CE7A7C1C51810A00DB0D72 /* gyroGullUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0CE7A7B1C51810A00DB0D72 /* gyroGullUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F0CE7A6D1C51810A00DB0D72 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F0CE7A501C51810900DB0D72 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F0CE7A571C51810A00DB0D72;
+			remoteInfo = gyroGull;
+		};
+		F0CE7A781C51810A00DB0D72 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F0CE7A501C51810900DB0D72 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F0CE7A571C51810A00DB0D72;
+			remoteInfo = gyroGull;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F0CE7A581C51810A00DB0D72 /* gyroGull.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = gyroGull.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F0CE7A5B1C51810A00DB0D72 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F0CE7A5D1C51810A00DB0D72 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F0CE7A601C51810A00DB0D72 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F0CE7A621C51810A00DB0D72 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F0CE7A651C51810A00DB0D72 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F0CE7A671C51810A00DB0D72 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F0CE7A6C1C51810A00DB0D72 /* gyroGullTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = gyroGullTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F0CE7A701C51810A00DB0D72 /* gyroGullTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = gyroGullTests.swift; sourceTree = "<group>"; };
+		F0CE7A721C51810A00DB0D72 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F0CE7A771C51810A00DB0D72 /* gyroGullUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = gyroGullUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F0CE7A7B1C51810A00DB0D72 /* gyroGullUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = gyroGullUITests.swift; sourceTree = "<group>"; };
+		F0CE7A7D1C51810A00DB0D72 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F0CE7A551C51810A00DB0D72 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0CE7A691C51810A00DB0D72 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0CE7A741C51810A00DB0D72 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F0CE7A4F1C51810900DB0D72 = {
+			isa = PBXGroup;
+			children = (
+				F0CE7A5A1C51810A00DB0D72 /* gyroGull */,
+				F0CE7A6F1C51810A00DB0D72 /* gyroGullTests */,
+				F0CE7A7A1C51810A00DB0D72 /* gyroGullUITests */,
+				F0CE7A591C51810A00DB0D72 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F0CE7A591C51810A00DB0D72 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F0CE7A581C51810A00DB0D72 /* gyroGull.app */,
+				F0CE7A6C1C51810A00DB0D72 /* gyroGullTests.xctest */,
+				F0CE7A771C51810A00DB0D72 /* gyroGullUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F0CE7A5A1C51810A00DB0D72 /* gyroGull */ = {
+			isa = PBXGroup;
+			children = (
+				F0CE7A5B1C51810A00DB0D72 /* AppDelegate.swift */,
+				F0CE7A5D1C51810A00DB0D72 /* ViewController.swift */,
+				F0CE7A5F1C51810A00DB0D72 /* Main.storyboard */,
+				F0CE7A621C51810A00DB0D72 /* Assets.xcassets */,
+				F0CE7A641C51810A00DB0D72 /* LaunchScreen.storyboard */,
+				F0CE7A671C51810A00DB0D72 /* Info.plist */,
+			);
+			path = gyroGull;
+			sourceTree = "<group>";
+		};
+		F0CE7A6F1C51810A00DB0D72 /* gyroGullTests */ = {
+			isa = PBXGroup;
+			children = (
+				F0CE7A701C51810A00DB0D72 /* gyroGullTests.swift */,
+				F0CE7A721C51810A00DB0D72 /* Info.plist */,
+			);
+			path = gyroGullTests;
+			sourceTree = "<group>";
+		};
+		F0CE7A7A1C51810A00DB0D72 /* gyroGullUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F0CE7A7B1C51810A00DB0D72 /* gyroGullUITests.swift */,
+				F0CE7A7D1C51810A00DB0D72 /* Info.plist */,
+			);
+			path = gyroGullUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F0CE7A571C51810A00DB0D72 /* gyroGull */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F0CE7A801C51810A00DB0D72 /* Build configuration list for PBXNativeTarget "gyroGull" */;
+			buildPhases = (
+				F0CE7A541C51810A00DB0D72 /* Sources */,
+				F0CE7A551C51810A00DB0D72 /* Frameworks */,
+				F0CE7A561C51810A00DB0D72 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = gyroGull;
+			productName = gyroGull;
+			productReference = F0CE7A581C51810A00DB0D72 /* gyroGull.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F0CE7A6B1C51810A00DB0D72 /* gyroGullTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F0CE7A831C51810A00DB0D72 /* Build configuration list for PBXNativeTarget "gyroGullTests" */;
+			buildPhases = (
+				F0CE7A681C51810A00DB0D72 /* Sources */,
+				F0CE7A691C51810A00DB0D72 /* Frameworks */,
+				F0CE7A6A1C51810A00DB0D72 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F0CE7A6E1C51810A00DB0D72 /* PBXTargetDependency */,
+			);
+			name = gyroGullTests;
+			productName = gyroGullTests;
+			productReference = F0CE7A6C1C51810A00DB0D72 /* gyroGullTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F0CE7A761C51810A00DB0D72 /* gyroGullUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F0CE7A861C51810A00DB0D72 /* Build configuration list for PBXNativeTarget "gyroGullUITests" */;
+			buildPhases = (
+				F0CE7A731C51810A00DB0D72 /* Sources */,
+				F0CE7A741C51810A00DB0D72 /* Frameworks */,
+				F0CE7A751C51810A00DB0D72 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F0CE7A791C51810A00DB0D72 /* PBXTargetDependency */,
+			);
+			name = gyroGullUITests;
+			productName = gyroGullUITests;
+			productReference = F0CE7A771C51810A00DB0D72 /* gyroGullUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F0CE7A501C51810900DB0D72 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Guillaume Pabia";
+				TargetAttributes = {
+					F0CE7A571C51810A00DB0D72 = {
+						CreatedOnToolsVersion = 7.0.1;
+						DevelopmentTeam = DL33343EHV;
+					};
+					F0CE7A6B1C51810A00DB0D72 = {
+						CreatedOnToolsVersion = 7.0.1;
+						DevelopmentTeam = DL33343EHV;
+						TestTargetID = F0CE7A571C51810A00DB0D72;
+					};
+					F0CE7A761C51810A00DB0D72 = {
+						CreatedOnToolsVersion = 7.0.1;
+						DevelopmentTeam = DL33343EHV;
+						TestTargetID = F0CE7A571C51810A00DB0D72;
+					};
+				};
+			};
+			buildConfigurationList = F0CE7A531C51810900DB0D72 /* Build configuration list for PBXProject "gyroGull" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F0CE7A4F1C51810900DB0D72;
+			productRefGroup = F0CE7A591C51810A00DB0D72 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F0CE7A571C51810A00DB0D72 /* gyroGull */,
+				F0CE7A6B1C51810A00DB0D72 /* gyroGullTests */,
+				F0CE7A761C51810A00DB0D72 /* gyroGullUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F0CE7A561C51810A00DB0D72 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0CE7A661C51810A00DB0D72 /* LaunchScreen.storyboard in Resources */,
+				F0CE7A631C51810A00DB0D72 /* Assets.xcassets in Resources */,
+				F0CE7A611C51810A00DB0D72 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0CE7A6A1C51810A00DB0D72 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0CE7A751C51810A00DB0D72 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F0CE7A541C51810A00DB0D72 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0CE7A5E1C51810A00DB0D72 /* ViewController.swift in Sources */,
+				F0CE7A5C1C51810A00DB0D72 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0CE7A681C51810A00DB0D72 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0CE7A711C51810A00DB0D72 /* gyroGullTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0CE7A731C51810A00DB0D72 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0CE7A7C1C51810A00DB0D72 /* gyroGullUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F0CE7A6E1C51810A00DB0D72 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F0CE7A571C51810A00DB0D72 /* gyroGull */;
+			targetProxy = F0CE7A6D1C51810A00DB0D72 /* PBXContainerItemProxy */;
+		};
+		F0CE7A791C51810A00DB0D72 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F0CE7A571C51810A00DB0D72 /* gyroGull */;
+			targetProxy = F0CE7A781C51810A00DB0D72 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F0CE7A5F1C51810A00DB0D72 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F0CE7A601C51810A00DB0D72 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F0CE7A641C51810A00DB0D72 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F0CE7A651C51810A00DB0D72 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F0CE7A7E1C51810A00DB0D72 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F0CE7A7F1C51810A00DB0D72 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F0CE7A811C51810A00DB0D72 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = gyroGull/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.gupabia.gyroGull;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F0CE7A821C51810A00DB0D72 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = gyroGull/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.gupabia.gyroGull;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F0CE7A841C51810A00DB0D72 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = gyroGullTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.gupabia.gyroGullTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/gyroGull.app/gyroGull";
+			};
+			name = Debug;
+		};
+		F0CE7A851C51810A00DB0D72 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = gyroGullTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.gupabia.gyroGullTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/gyroGull.app/gyroGull";
+			};
+			name = Release;
+		};
+		F0CE7A871C51810A00DB0D72 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = gyroGullUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.gupabia.gyroGullUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = gyroGull;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		F0CE7A881C51810A00DB0D72 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = gyroGullUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.gupabia.gyroGullUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = gyroGull;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F0CE7A531C51810900DB0D72 /* Build configuration list for PBXProject "gyroGull" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F0CE7A7E1C51810A00DB0D72 /* Debug */,
+				F0CE7A7F1C51810A00DB0D72 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F0CE7A801C51810A00DB0D72 /* Build configuration list for PBXNativeTarget "gyroGull" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F0CE7A811C51810A00DB0D72 /* Debug */,
+				F0CE7A821C51810A00DB0D72 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F0CE7A831C51810A00DB0D72 /* Build configuration list for PBXNativeTarget "gyroGullTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F0CE7A841C51810A00DB0D72 /* Debug */,
+				F0CE7A851C51810A00DB0D72 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F0CE7A861C51810A00DB0D72 /* Build configuration list for PBXNativeTarget "gyroGullUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F0CE7A871C51810A00DB0D72 /* Debug */,
+				F0CE7A881C51810A00DB0D72 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F0CE7A501C51810900DB0D72 /* Project object */;
+}
