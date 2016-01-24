@@ -1,6 +1,6 @@
 //
 //  AppDelegate.swift
-//  gyroGull
+//  eGull
 //
 //  Created by Guillaume Pabia on 21/01/2016.
 //  Copyright © 2016 Guillaume Pabia. All rights reserved.

@@ -34,17 +34,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		F0CE7A581C51810A00DB0D72 /* gyroGull.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = gyroGull.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F0CE7A581C51810A00DB0D72 /* eGull.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = eGull.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F0CE7A5B1C51810A00DB0D72 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F0CE7A5D1C51810A00DB0D72 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		F0CE7A601C51810A00DB0D72 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F0CE7A621C51810A00DB0D72 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F0CE7A651C51810A00DB0D72 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F0CE7A671C51810A00DB0D72 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F0CE7A6C1C51810A00DB0D72 /* gyroGullTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = gyroGullTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F0CE7A6C1C51810A00DB0D72 /* eGull.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = eGull.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F0CE7A701C51810A00DB0D72 /* gyroGullTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = gyroGullTests.swift; sourceTree = "<group>"; };
 		F0CE7A721C51810A00DB0D72 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F0CE7A771C51810A00DB0D72 /* gyroGullUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = gyroGullUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F0CE7A771C51810A00DB0D72 /* eGull.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = eGull.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F0CE7A7B1C51810A00DB0D72 /* gyroGullUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = gyroGullUITests.swift; sourceTree = "<group>"; };
 		F0CE7A7D1C51810A00DB0D72 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -87,9 +87,9 @@
 		F0CE7A591C51810A00DB0D72 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				F0CE7A581C51810A00DB0D72 /* gyroGull.app */,
-				F0CE7A6C1C51810A00DB0D72 /* gyroGullTests.xctest */,
-				F0CE7A771C51810A00DB0D72 /* gyroGullUITests.xctest */,
+				F0CE7A581C51810A00DB0D72 /* eGull.app */,
+				F0CE7A6C1C51810A00DB0D72 /* eGull.xctest */,
+				F0CE7A771C51810A00DB0D72 /* eGull.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -128,9 +128,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		F0CE7A571C51810A00DB0D72 /* gyroGull */ = {
+		F0CE7A571C51810A00DB0D72 /* eGull */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F0CE7A801C51810A00DB0D72 /* Build configuration list for PBXNativeTarget "gyroGull" */;
+			buildConfigurationList = F0CE7A801C51810A00DB0D72 /* Build configuration list for PBXNativeTarget "eGull" */;
 			buildPhases = (
 				F0CE7A541C51810A00DB0D72 /* Sources */,
 				F0CE7A551C51810A00DB0D72 /* Frameworks */,
@@ -140,14 +140,14 @@
 			);
 			dependencies = (
 			);
-			name = gyroGull;
+			name = eGull;
 			productName = gyroGull;
-			productReference = F0CE7A581C51810A00DB0D72 /* gyroGull.app */;
+			productReference = F0CE7A581C51810A00DB0D72 /* eGull.app */;
 			productType = "com.apple.product-type.application";
 		};
-		F0CE7A6B1C51810A00DB0D72 /* gyroGullTests */ = {
+		F0CE7A6B1C51810A00DB0D72 /* eGullTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F0CE7A831C51810A00DB0D72 /* Build configuration list for PBXNativeTarget "gyroGullTests" */;
+			buildConfigurationList = F0CE7A831C51810A00DB0D72 /* Build configuration list for PBXNativeTarget "eGullTests" */;
 			buildPhases = (
 				F0CE7A681C51810A00DB0D72 /* Sources */,
 				F0CE7A691C51810A00DB0D72 /* Frameworks */,
@@ -158,14 +158,14 @@
 			dependencies = (
 				F0CE7A6E1C51810A00DB0D72 /* PBXTargetDependency */,
 			);
-			name = gyroGullTests;
+			name = eGullTests;
 			productName = gyroGullTests;
-			productReference = F0CE7A6C1C51810A00DB0D72 /* gyroGullTests.xctest */;
+			productReference = F0CE7A6C1C51810A00DB0D72 /* eGull.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		F0CE7A761C51810A00DB0D72 /* gyroGullUITests */ = {
+		F0CE7A761C51810A00DB0D72 /* eGullUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F0CE7A861C51810A00DB0D72 /* Build configuration list for PBXNativeTarget "gyroGullUITests" */;
+			buildConfigurationList = F0CE7A861C51810A00DB0D72 /* Build configuration list for PBXNativeTarget "eGullUITests" */;
 			buildPhases = (
 				F0CE7A731C51810A00DB0D72 /* Sources */,
 				F0CE7A741C51810A00DB0D72 /* Frameworks */,
@@ -176,9 +176,9 @@
 			dependencies = (
 				F0CE7A791C51810A00DB0D72 /* PBXTargetDependency */,
 			);
-			name = gyroGullUITests;
+			name = eGullUITests;
 			productName = gyroGullUITests;
-			productReference = F0CE7A771C51810A00DB0D72 /* gyroGullUITests.xctest */;
+			productReference = F0CE7A771C51810A00DB0D72 /* eGull.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -192,7 +192,7 @@
 				TargetAttributes = {
 					F0CE7A571C51810A00DB0D72 = {
 						CreatedOnToolsVersion = 7.0.1;
-						DevelopmentTeam = DL33343EHV;
+						DevelopmentTeam = 47BFF253GL;
 					};
 					F0CE7A6B1C51810A00DB0D72 = {
 						CreatedOnToolsVersion = 7.0.1;
@@ -206,7 +206,7 @@
 					};
 				};
 			};
-			buildConfigurationList = F0CE7A531C51810900DB0D72 /* Build configuration list for PBXProject "gyroGull" */;
+			buildConfigurationList = F0CE7A531C51810900DB0D72 /* Build configuration list for PBXProject "eGull" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -219,9 +219,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				F0CE7A571C51810A00DB0D72 /* gyroGull */,
-				F0CE7A6B1C51810A00DB0D72 /* gyroGullTests */,
-				F0CE7A761C51810A00DB0D72 /* gyroGullUITests */,
+				F0CE7A571C51810A00DB0D72 /* eGull */,
+				F0CE7A6B1C51810A00DB0D72 /* eGullTests */,
+				F0CE7A761C51810A00DB0D72 /* eGullUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -284,12 +284,12 @@
 /* Begin PBXTargetDependency section */
 		F0CE7A6E1C51810A00DB0D72 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = F0CE7A571C51810A00DB0D72 /* gyroGull */;
+			target = F0CE7A571C51810A00DB0D72 /* eGull */;
 			targetProxy = F0CE7A6D1C51810A00DB0D72 /* PBXContainerItemProxy */;
 		};
 		F0CE7A791C51810A00DB0D72 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = F0CE7A571C51810A00DB0D72 /* gyroGull */;
+			target = F0CE7A571C51810A00DB0D72 /* eGull */;
 			targetProxy = F0CE7A781C51810A00DB0D72 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -399,10 +399,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = gyroGull/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.gupabia.gyroGull;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.gupabia.eGull;
+				PRODUCT_NAME = eGull;
 			};
 			name = Debug;
 		};
@@ -410,10 +412,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = gyroGull/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.gupabia.gyroGull;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.gupabia.eGull;
+				PRODUCT_NAME = eGull;
 			};
 			name = Release;
 		};
@@ -424,8 +428,8 @@
 				INFOPLIST_FILE = gyroGullTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.gupabia.gyroGullTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/gyroGull.app/gyroGull";
+				PRODUCT_NAME = eGull;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/eGull.app/eGull";
 			};
 			name = Debug;
 		};
@@ -436,8 +440,8 @@
 				INFOPLIST_FILE = gyroGullTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.gupabia.gyroGullTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/gyroGull.app/gyroGull";
+				PRODUCT_NAME = eGull;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/eGull.app/eGull";
 			};
 			name = Release;
 		};
@@ -447,7 +451,7 @@
 				INFOPLIST_FILE = gyroGullUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.gupabia.gyroGullUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = eGull;
 				TEST_TARGET_NAME = gyroGull;
 				USES_XCTRUNNER = YES;
 			};
@@ -459,7 +463,7 @@
 				INFOPLIST_FILE = gyroGullUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.gupabia.gyroGullUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = eGull;
 				TEST_TARGET_NAME = gyroGull;
 				USES_XCTRUNNER = YES;
 			};
@@ -468,7 +472,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		F0CE7A531C51810900DB0D72 /* Build configuration list for PBXProject "gyroGull" */ = {
+		F0CE7A531C51810900DB0D72 /* Build configuration list for PBXProject "eGull" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F0CE7A7E1C51810A00DB0D72 /* Debug */,
@@ -477,29 +481,32 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F0CE7A801C51810A00DB0D72 /* Build configuration list for PBXNativeTarget "gyroGull" */ = {
+		F0CE7A801C51810A00DB0D72 /* Build configuration list for PBXNativeTarget "eGull" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F0CE7A811C51810A00DB0D72 /* Debug */,
 				F0CE7A821C51810A00DB0D72 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		F0CE7A831C51810A00DB0D72 /* Build configuration list for PBXNativeTarget "gyroGullTests" */ = {
+		F0CE7A831C51810A00DB0D72 /* Build configuration list for PBXNativeTarget "eGullTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F0CE7A841C51810A00DB0D72 /* Debug */,
 				F0CE7A851C51810A00DB0D72 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		F0CE7A861C51810A00DB0D72 /* Build configuration list for PBXNativeTarget "gyroGullUITests" */ = {
+		F0CE7A861C51810A00DB0D72 /* Build configuration list for PBXNativeTarget "eGullUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F0CE7A871C51810A00DB0D72 /* Debug */,
 				F0CE7A881C51810A00DB0D72 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

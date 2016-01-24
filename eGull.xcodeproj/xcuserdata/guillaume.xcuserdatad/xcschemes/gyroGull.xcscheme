@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "F0CE7A571C51810A00DB0D72"
-               BuildableName = "gyroGull.app"
-               BlueprintName = "gyroGull"
-               ReferencedContainer = "container:gyroGull.xcodeproj">
+               BuildableName = "eGull.app"
+               BlueprintName = "eGull"
+               ReferencedContainer = "container:eGull.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "F0CE7A6B1C51810A00DB0D72"
-               BuildableName = "gyroGullTests.xctest"
-               BlueprintName = "gyroGullTests"
-               ReferencedContainer = "container:gyroGull.xcodeproj">
+               BuildableName = "eGull.xctest"
+               BlueprintName = "eGullTests"
+               ReferencedContainer = "container:eGull.xcodeproj">
             </BuildableReference>
          </TestableReference>
          <TestableReference
@@ -43,9 +43,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "F0CE7A761C51810A00DB0D72"
-               BuildableName = "gyroGullUITests.xctest"
-               BlueprintName = "gyroGullUITests"
-               ReferencedContainer = "container:gyroGull.xcodeproj">
+               BuildableName = "eGull.xctest"
+               BlueprintName = "eGullUITests"
+               ReferencedContainer = "container:eGull.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -53,9 +53,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "F0CE7A571C51810A00DB0D72"
-            BuildableName = "gyroGull.app"
-            BlueprintName = "gyroGull"
-            ReferencedContainer = "container:gyroGull.xcodeproj">
+            BuildableName = "eGull.app"
+            BlueprintName = "eGull"
+            ReferencedContainer = "container:eGull.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -76,9 +76,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "F0CE7A571C51810A00DB0D72"
-            BuildableName = "gyroGull.app"
-            BlueprintName = "gyroGull"
-            ReferencedContainer = "container:gyroGull.xcodeproj">
+            BuildableName = "eGull.app"
+            BlueprintName = "eGull"
+            ReferencedContainer = "container:eGull.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -95,9 +95,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "F0CE7A571C51810A00DB0D72"
-            BuildableName = "gyroGull.app"
-            BlueprintName = "gyroGull"
-            ReferencedContainer = "container:gyroGull.xcodeproj">
+            BuildableName = "eGull.app"
+            BlueprintName = "eGull"
+            ReferencedContainer = "container:eGull.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
